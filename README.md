@@ -7,6 +7,6 @@ ll -t |head -n 2|awk '{print $9}'|tail -1
 ll -t |head -n 2|awk '{print $9}'|xargs tail -f
 
 
-
+yum whatprovides */lspci
 
 ```
